@@ -1,0 +1,59 @@
+.Container{
+  background-color : #fff ;
+  padding : 20px ;
+  width : 50vw ;
+  border-radius : 20px ;
+  display : flex ;
+}
+.Container h1{
+  flex : 1 ;
+  padding : 20px ;
+  font-size : 1.5em; 
+  font-weight : 700 ;
+}
+.Container section{
+  flex : 3 ;
+  padding : 20px ;
+}
+
+.Container section .Question {
+  padding : 3px 10px; 
+  box-shadow : 0 5px 15px rgba(0,0,0,0.1) ;
+  margin-bottom : 10px ;
+}
+.Container section .Question h2 {
+  font-size : 1em ;
+  font-weight : 700 ;
+  padding : 10px; 
+  display : flex ;
+  align-items : center ;
+  justify-content : space-between ;
+}
+.Container section .Question h2 button{
+  background-color : #eae6eb ;
+  border-radius : 50% ;
+  padding : 7px 5px ;
+  color : #b4345c ;
+  outline : none ;
+  width : 30px ;
+  border : none ;
+  cursor: pointer;
+  font-size : 1rem ;
+  display : flex; 
+  align-items : center ;
+  justify-content: center ;
+}
+.Container section .Question p{
+  color : #324d67 ;
+}
+@media screen and (max-width:986px){
+  .Container {
+    flex-wrap : wrap ;
+    display : block ;
+  }
+}
+@media screen and (max-width:556px){
+  .Container {
+    width : 85vw ;
+  }
+}
